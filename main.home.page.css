@@ -1,0 +1,33 @@
+*{
+    font-family: 'Abril Fatface', serif;
+}
+
+/* HEADER */
+
+#logo {
+    font-weight: 600;
+    font-size: 1.4rem;
+    border: 2px solid blanchedalmond;
+    display: inline;
+    padding: 3px;
+}
+ul{
+    list-style: none;
+    padding-left: 0;
+}
+
+a{
+    color: palevioletred;
+}
+
+/* MAIN */
+.main-img{
+    width: 20%;
+}
+
+/* FOOTER */
+
+footer {
+    margin-top: 3rem;
+    border-top: 1px solid blanchedalmond;
+}

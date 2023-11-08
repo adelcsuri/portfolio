@@ -1,0 +1,60 @@
+*{
+    font-family: 'Abril Fatface', serif;
+}
+
+/* HEADER */
+
+#logo {
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.4rem;
+    border: 2px solid blanchedalmond;
+    display: inline;
+    padding: 3px;
+}
+ul{
+    list-style: none;
+    padding-left: 0;
+}
+
+
+/* FOOTER */
+
+footer {
+    margin-top: 3rem;
+    border-top: 1px solid blanchedalmond;
+}
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #dbd5d5; /* Grey border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Making sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the send button */
+  input[type=send] {
+    background-color: #d998ad;
+    color: white;
+    padding: 12px 20px;
+    width:fit-content;
+    border:none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker color */
+  input[type=send]:hover {
+    background-color: #a50c49;
+  }
+  
+  /* Background color and some padding around the form */
+  .container {
+    border-radius: 5px;
+    background-color: palevioletred;
+    padding: 20px;
+  }
